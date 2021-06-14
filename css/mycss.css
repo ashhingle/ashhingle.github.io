@@ -1,0 +1,111 @@
+h1 {
+  color: #f2c66d;
+  }
+  
+ h2, h3 {
+  color: #EA7186;
+  } 
+
+p {
+	font-family: 'Teko', serif;
+	color: white;
+	font-size: 1.25rem;
+    font-weight: 300;
+	}
+
+
+.nav-bar-custom {
+
+	padding:10px 20px;
+	}
+ 
+.content {
+	padding-top: 40px;
+	}
+
+.active {
+	
+	
+	font-weight: bolder;
+	border-bottom: .25rem solid #fff;
+	background-color: #f2c66d;
+    color: #24292e;
+	}
+
+.non-active {
+	background-color: #222131;
+	font-weight: bold;
+	color: white;
+	border-bottom: .25rem solid #222131;
+	}
+
+ .nav-link {
+    margin: 0px 4px;
+	}
+ 
+ 
+ .nav-item {
+	min-width: 120px;
+	text-align: center;
+	}
+
+footer {
+		padding-top: 100px;
+}
+
+ 
+ /* Font Awesome specific CSS*/
+ /* Style all font awesome icons */
+.fa {
+  padding: 20px 0px;
+  font-size: 30px;
+  }
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+  }
+
+
+
+
+
+/* Set a specific color for each brand */
+/* Twitter */
+.div-twitter {
+	background-color: #55ACEE;
+	border: solid 5px white;
+	}
+
+.icon-twitter {  
+  color: white;
+  }
+
+/* Github */
+.div-github {
+	background-color: #24292e;
+	border: solid 5px white;
+	}
+	
+.icon-github {
+  color: white;
+  }
+
+/* Google Scholar */
+.div-scholar {
+	background-color: #dd4b39;
+	border: solid 5px white;
+	}
+	
+.icon-scholar {
+  color: white;
+  }
+
+/* LinkedIn */
+.div-linkedin {
+	background-color: #007bb5;
+	border: solid 5px white;
+	}
+.icon-linkedin {
+  color: white;
+  }
