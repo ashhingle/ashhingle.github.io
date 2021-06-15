@@ -1,21 +1,28 @@
 h1 {
-  color: #f2c66d;
+	color: #f2c66d;
   }
   
  h2, h3 {
-  color: #EA7186;
+	color: #EA7186;
   } 
 
 p {
 	font-family: 'Teko', serif;
 	color: white;
 	font-size: 1.25rem;
-    font-weight: 300;
+    
 	}
 
+a {
+	color: #ffb5c2
+	}
+	
+
+.entries {
+	font-size: 1.15em;
+}
 
 .nav-bar-custom {
-
 	padding:10px 20px;
 	}
  
@@ -24,8 +31,6 @@ p {
 	}
 
 .active {
-	
-	
 	font-weight: bolder;
 	border-bottom: .25rem solid #fff;
 	background-color: #f2c66d;
@@ -43,32 +48,34 @@ p {
     margin: 0px 4px;
 	}
  
- 
  .nav-item {
 	min-width: 120px;
 	text-align: center;
 	}
 
 footer {
-		padding-top: 100px;
-}
+	padding-top: 100px;
+	}
 
- 
+.active:focus, .active:hover {
+	color: #7A77B8;
+	}
+
+.non-active:focus, .non-active:hover {
+	color: #EA7186;
+	}
+
  /* Font Awesome specific CSS*/
  /* Style all font awesome icons */
 .fa {
-  padding: 20px 0px;
-  font-size: 30px;
-  }
+	padding: 20px 0px;
+	font-size: 30px;
+	}
 
 /* Add a hover effect if you want */
 .fa:hover {
-  opacity: 0.7;
-  }
-
-
-
-
+	opacity: 0.7;
+	}
 
 /* Set a specific color for each brand */
 /* Twitter */
@@ -78,8 +85,8 @@ footer {
 	}
 
 .icon-twitter {  
-  color: white;
-  }
+	color: white;
+	}
 
 /* Github */
 .div-github {
@@ -88,8 +95,8 @@ footer {
 	}
 	
 .icon-github {
-  color: white;
-  }
+	color: white;
+	}
 
 /* Google Scholar */
 .div-scholar {
@@ -98,8 +105,8 @@ footer {
 	}
 	
 .icon-scholar {
-  color: white;
-  }
+	color: white;
+	}
 
 /* LinkedIn */
 .div-linkedin {
@@ -107,5 +114,5 @@ footer {
 	border: solid 5px white;
 	}
 .icon-linkedin {
-  color: white;
-  }
+	color: white;
+	}
