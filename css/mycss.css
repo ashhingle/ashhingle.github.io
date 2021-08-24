@@ -45,7 +45,7 @@ p {
 }
 
 a {
-	color: #ffb5c2
+	color: #0dcaf0;
 }
 
 .divider {
@@ -59,6 +59,11 @@ a {
 	min-height: 3px;
 	opacity: 1;
 	margin: 25px 0px;
+}
+
+.ent-emph {
+	color: #f2c66d;
+	font-weight: bold;
 }
 
 .entries {
