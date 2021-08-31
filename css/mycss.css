@@ -39,6 +39,8 @@ a {
 
 .entries {
 	font-size: 1.15em;
+	text-indent: -50px;
+	padding-left: 50px;
 }
 
 /* 2c. Special Format */
@@ -53,6 +55,11 @@ a {
 .ent-emph {
 	color: #f2c66d;
 	font-weight: bold;
+}
+
+.numb-emp{
+	color: whitesmoke;
+	font-weight: bolder;
 }
 
 /* 3. Navigation Menu styles || */
