@@ -1,7 +1,7 @@
 /* 1. General styles || */
 
 body {
-	background-color: #00435f;
+	background-color: #0D344A;
 }
 
 /* 2. Typography styles || */
@@ -9,11 +9,11 @@ body {
 /* 2a. Headings */
 
 h1 {
-	color: #f2c66d;
+	color: #f2be54;
 }
 
 h2, h3 {
-	color: #EA7186;
+	color: #F9AB9A;
 }
 
 h4 {
@@ -29,13 +29,18 @@ h5 {
 
 p {
 	font-family: 'Teko', serif;
-	color: white;
 	font-size: 1.25rem;
 }
 
 a {
 	color: #93edff;
 }
+
+p, li, span {
+	color: white;
+}
+
+
 
 .entries {
 	font-size: 1.15em;
@@ -53,7 +58,7 @@ a {
 }
 
 .ent-emph {
-	color: #f2c66d;
+	color: #f2be54;
 	font-weight: bold;
 }
 
@@ -64,22 +69,23 @@ a {
 
 /* 3. Navigation Menu styles || */
 
+.navbar-nav {
+	border-bottom: .25rem solid #f2be54;;
+}
+
 .nav-bar-custom {
-	padding: 10px 20px;
+	padding: 20px;
 }
 
 .active {
 	font-weight: bolder;
-	border-bottom: .25rem solid #fff;
-	background-color: #f2c66d;
-	color: #002433;
+	background-color: #f2be54;
+	color: #191a1d;
 }
 
 .non-active {
-	background-color: #002433;
 	font-weight: bold;
 	color: white;
-	border-bottom: .25rem solid white;
 }
 
 .active:focus, .active:hover {
@@ -87,15 +93,15 @@ a {
 }
 
 .non-active:focus, .non-active:hover {
-	color: #EA7186;
+	color: #F9AB9A;
 }
 
 .nav-link {
-	margin: 0px 4px;
+	padding: 10px 5px 10px 5px;
 }
 
 .nav-item {
-	min-width: 120px;
+	min-width: 130px;
 	text-align: center;
 }
 
@@ -133,7 +139,7 @@ a {
 }
 
 footer {
-	padding-top: 100px;
+	padding-top: 50px;
 }
 
 /* 4. Custom Features styles || */
@@ -153,7 +159,7 @@ footer {
 	z-index: 1;
 	text-decoration: none;
 	font-weight: bold;
-	background-color: #002433;
+	background-color: #191a1d;
 }
 
 .list-tags li {
@@ -161,7 +167,7 @@ footer {
 	float: left;
 	margin: 0 10px 10px 0;
 	font-size: 14px;
-	color: #00435f;
+	color: #0D344A;
 }
 
 .carousel-caption {
@@ -170,8 +176,12 @@ footer {
 	padding-left: 5%;
 	padding-right: 5%;
 	padding-bottom: 1em;
-	background-color: rgb(0, 67, 95, 0.5);
+	background-color: rgba(0, 67, 95, 0.90);
 	border: white 4px solid;
+}
+
+.puzzle-block {
+	margin: 10px 0px;
 }
 
 /* 5. Bootstrap Specific styles || */
@@ -192,28 +202,32 @@ footer {
 		font-size: 1.2em;
 	}
 	.carousel-caption p {
-		font-size: 1.1em;
+		font-size: 1em;
 	}
 }
 
 @media (min-width: 992px) {
 	/* Large devices (desktops, 992px and up)*/
 	.carousel-caption h5 {
-		font-size: 1.5em;
+		font-size: 1.3em;
 	}
 	.carousel-caption p {
-		font-size: 1.3em;
+		font-size: 1em;
 	}
 }
 
 @media (min-width: 1200px) {
 	/* Extra large devices (large desktops, 1200px and up)*/
 	.carousel-caption h5 {
-		font-size: 1.6em;
-	}
-	.carousel-caption p {
 		font-size: 1.4em;
 	}
+	.carousel-caption p {
+		font-size: 1.2em;
+	}
+}
+
+.modal-title{
+	color: #191a1d;
 }
 
 /* 6. Font Awesome specific CSS*/
