@@ -43,7 +43,7 @@ p, li, span {
 
 
 .entries {
-	font-size: 1.15em;
+	font-size: 1.05em;
 	text-indent: -50px;
 	padding-left: 50px;
 }
@@ -189,20 +189,20 @@ footer {
 @media (min-width: 576px) {
 	/* Small devices (landscape phones, 576px and up)*/
 	.carousel-caption h5 {
-		font-size: 1em;
+		font-size: 0.8em;
 	}
 	.carousel-caption p {
-		font-size: 1em;
+		font-size: 0.8em;
 	}
 }
 
 @media (min-width: 768px) {
 	/* Medium devices (tablets, 768px and up)*/
 	.carousel-caption h5 {
-		font-size: 1.2em;
+		font-size: 0.9em;
 	}
 	.carousel-caption p {
-		font-size: 1em;
+		font-size: 0.9em;
 	}
 }
 
