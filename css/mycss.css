@@ -1,7 +1,7 @@
 /* 1. General styles || */
 
 body {
-	background-color: #0D344A;
+	background-color: #001a28;
 }
 
 /* 2. Typography styles || */
@@ -12,8 +12,10 @@ h1 {
 	color: #f2be54;
 }
 
-h2, h3 {
+h2,
+h3 {
 	color: #F9AB9A;
+	padding-left: 4px;
 }
 
 h4 {
@@ -29,23 +31,54 @@ h5 {
 
 p {
 	font-family: 'Teko', serif;
-	font-size: 1.25rem;
+	font-size: 1.1rem;
 }
 
 a {
 	color: #93edff;
 }
 
-p, li, span {
+p,
+li,
+span {
 	color: white;
+	font-family: "Open Sans", sans-serif;
 }
 
+.smol-heading {
+	line-height: 18px;
+	font-family: "Poppins", sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 16px;
+	margin-bottom: auto;
+}
 
+.entry-block {
+	padding-left: 20px;
+	margin-top: 10px;
+	margin-left: 4px;
+	border-left: 2px solid #fff;
+	position: relative;
+}
+
+.entry-block::before {
+	content: "";
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	border-radius: 50px;
+	left: -9px;
+	top: 0;
+	background: #001a28;
+	border: 2px solid #f2be54;
+}
 
 .entries {
 	font-size: 1.05em;
 	text-indent: -50px;
 	padding-left: 50px;
+	margin-bottom: 10px;
 }
 
 /* 2c. Special Format */
@@ -62,7 +95,7 @@ p, li, span {
 	font-weight: bold;
 }
 
-.numb-emp{
+.numb-emp {
 	color: whitesmoke;
 	font-weight: bolder;
 }
@@ -70,11 +103,13 @@ p, li, span {
 /* 3. Navigation Menu styles || */
 
 .navbar-nav {
-	border-bottom: .25rem solid #f2be54;;
+	border-bottom: .25rem solid #f2be54;
+	;
 }
 
 .nav-bar-custom {
 	padding: 20px;
+	padding-top: 40px;
 }
 
 .active {
@@ -88,11 +123,13 @@ p, li, span {
 	color: white;
 }
 
-.active:focus, .active:hover {
+.active:focus,
+.active:hover {
 	color: #525252;
 }
 
-.non-active:focus, .non-active:hover {
+.non-active:focus,
+.non-active:hover {
 	color: #F9AB9A;
 }
 
@@ -116,6 +153,13 @@ p, li, span {
 .divider-spaced {
 	color: white;
 	min-height: 3px;
+	opacity: 1;
+	margin: 25px 0px;
+}
+
+.divider-thin {
+	color: white;
+	min-height: 1px;
 	opacity: 1;
 	margin: 25px 0px;
 }
@@ -167,7 +211,7 @@ footer {
 	float: left;
 	margin: 0 10px 10px 0;
 	font-size: 14px;
-	color: #0D344A;
+	color: #001a28;
 }
 
 .carousel-caption {
@@ -187,46 +231,54 @@ footer {
 /* 5. Bootstrap Specific styles || */
 
 @media (min-width: 576px) {
+
 	/* Small devices (landscape phones, 576px and up)*/
 	.carousel-caption h5 {
 		font-size: 0.8em;
 	}
+
 	.carousel-caption p {
 		font-size: 0.8em;
 	}
 }
 
 @media (min-width: 768px) {
+
 	/* Medium devices (tablets, 768px and up)*/
 	.carousel-caption h5 {
 		font-size: 0.9em;
 	}
+
 	.carousel-caption p {
 		font-size: 0.9em;
 	}
 }
 
 @media (min-width: 992px) {
+
 	/* Large devices (desktops, 992px and up)*/
 	.carousel-caption h5 {
 		font-size: 1.3em;
 	}
+
 	.carousel-caption p {
 		font-size: 1em;
 	}
 }
 
 @media (min-width: 1200px) {
+
 	/* Extra large devices (large desktops, 1200px and up)*/
 	.carousel-caption h5 {
 		font-size: 1.4em;
 	}
+
 	.carousel-caption p {
 		font-size: 1.2em;
 	}
 }
 
-.modal-title{
+.modal-title {
 	color: #191a1d;
 }
 
