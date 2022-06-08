@@ -16,6 +16,7 @@ h2,
 h3 {
 	color: #F9AB9A;
 	padding-left: 4px;
+	padding-bottom: 10px;
 }
 
 h4 {
@@ -36,6 +37,10 @@ p {
 
 a {
 	color: #93edff;
+}
+
+a:hover {
+	color: #ffdb93;
 }
 
 p,
@@ -84,9 +89,9 @@ span {
 /* 2c. Special Format */
 
 .lowkey {
-	font-family: 'Teko', serif;
+
 	color: white;
-	font-size: 1.1rem;
+	font-size: 0.8rem;
 	font-weight: normal;
 }
 
@@ -98,6 +103,14 @@ span {
 .numb-emp {
 	color: whitesmoke;
 	font-weight: bolder;
+}
+
+.cpp-emph {
+	color: #CEB888;
+}
+
+.gmu-emph {
+	color: #ffcc33;
 }
 
 /* 3. Navigation Menu styles || */
