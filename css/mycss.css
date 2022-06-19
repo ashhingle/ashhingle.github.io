@@ -4,6 +4,11 @@ body {
 	background-color: #001a28;
 }
 
+header {
+	padding-top: 40px;
+	border-bottom: .25rem solid #f2be54;
+}
+
 /* 2. Typography styles || */
 
 /* 2a. Headings */
@@ -41,6 +46,7 @@ a {
 
 a:hover {
 	color: #ffdb93;
+	transition: all ease-in-out 1s;
 }
 
 p,
@@ -48,6 +54,11 @@ li,
 span {
 	color: white;
 	font-family: "Open Sans", sans-serif;
+}
+
+.dropdown-item {
+	text-align: center;
+	font-weight: 600;
 }
 
 .smol-heading {
@@ -61,6 +72,7 @@ span {
 
 .entry-block {
 	padding-left: 20px;
+	margin-bottom: 25px;
 	margin-top: 10px;
 	margin-left: 4px;
 	border-left: 2px solid #fff;
@@ -115,20 +127,23 @@ span {
 
 /* 3. Navigation Menu styles || */
 
-.navbar-nav {
-	border-bottom: .25rem solid #f2be54;
-	;
-}
-
 .nav-bar-custom {
+	background-color: #000f18;
 	padding: 20px;
-	padding-top: 40px;
+	padding-left: 40px;
 }
 
+.navbar-brand {
+	padding-left: 20px;
+}
+
+
+/*
 .active {
 	font-weight: bolder;
 	background-color: #f2be54;
 	color: #191a1d;
+	border-radius: 0.5em 0.5em 0 0;
 }
 
 .non-active {
@@ -145,14 +160,29 @@ span {
 .non-active:hover {
 	color: #F9AB9A;
 }
+*/
 
 .nav-link {
 	padding: 10px 5px 10px 5px;
+	font-weight: 600;
+	color: white;
+	text-align: center;
+}
+
+.nav-link:hover {
+	text-decoration: underline;
+	font-weight: 600;
+	color: #ffdb93;
+}
+
+.nav-link:focus {
+	color: #ffdb93;
 }
 
 .nav-item {
-	min-width: 130px;
+	min-width: 8em;
 	text-align: center;
+
 }
 
 /* 3. Utilities styles || */
@@ -195,9 +225,11 @@ span {
 	padding-top: 10px;
 }
 
-footer {
+.footer {
 	padding-top: 50px;
 }
+
+
 
 /* 4. Custom Features styles || */
 
