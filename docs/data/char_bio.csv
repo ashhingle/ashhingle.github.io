@@ -1,7 +1,7 @@
-Role,Add_summary
-Norman,My name is Norman Devlin.  I work as an Aviation Consultant. Boeing was to blame for the incident. I think the pilots were given too much to learn. The pilots were only trained for 1 hour on an ipad.
-Meera,My Name is Meera Patil. I work as a Professor of Aerospace Engineering. Boeing was to blame for the incident. I’m not sure if the pilots were at fault. The pilots were only trained for 1 hour on an ipad.
-Andrew,My name is Andrew Gelman. I work as a Software Engineer. Complexity of technology was to blame for the incident. I think the pilots were given too much to learn. The pilots were only trained for 1 hour on an ipad.
-John,"My name is John O’Leary. I used to work as an FAA Officer, but I retired recently. Boeing was to blame for the incident. I think the pilots were given too much to learn. The pilots were only trained for 1 hour on an ipad."
-Mary,My name is Mary Bradley. I work as the Boeing Representative. Boeing was not responsible for the incident. I think the pilots were not responsible. The pilots had enough training on the new systems.
-Sarah,My name is Sarah Bennett. I work as a Family Lawyer. Boeing was definitely responsible for the incident. I think the pilots were given too much to learn. The pilots were only trained for 1 hour on an ipad.
+Case,Role,Add_summary
+Boeing,Norman,My name is Norman Devlin.  I work as an Aviation Consultant. Boeing was to blame for the incident. I think the pilots were given too much to learn. The pilots were only trained for 1 hour on an ipad.
+Boeing,Meera,My Name is Meera Patil. I work as a Professor of Aerospace Engineering. Boeing was to blame for the incident. I’m not sure if the pilots were at fault. The pilots were only trained for 1 hour on an ipad.
+Boeing,Andrew,My name is Andrew Gelman. I work as a Software Engineer. Complexity of technology was to blame for the incident. I think the pilots were given too much to learn. The pilots were only trained for 1 hour on an ipad.
+Boeing,John,"My name is John O’Leary. I used to work as an FAA Officer, but I retired recently. Boeing was to blame for the incident. I think the pilots were given too much to learn. The pilots were only trained for 1 hour on an ipad."
+Boeing,Mary,My name is Mary Bradley. I work as the Boeing Representative. Boeing was not responsible for the incident. I think the pilots were not responsible. The pilots had enough training on the new systems.
+Boeing,Sarah,My name is Sarah Bennett. I work as a Family Lawyer. Boeing was definitely responsible for the incident. I think the pilots were given too much to learn. The pilots were only trained for 1 hour on an ipad.
