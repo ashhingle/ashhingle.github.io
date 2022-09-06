@@ -444,6 +444,7 @@ span {
 .card-vertical-title {
 	color: #001a28;
 	text-align: center;
+	font-weight: 500;
 }
 
 .card-vertical-text {
@@ -477,6 +478,7 @@ span {
 	color: #001a28;
 	text-align: center;
 	padding-top: 20px;
+	font-weight: 500;
 }
 
 .card-horizontal-text {
