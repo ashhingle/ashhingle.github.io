@@ -405,3 +405,47 @@ span {
 .icon-linkedin {
 	color: white;
 }
+
+/* 7. Lightbox and Photo Gallery */
+
+.photo-gallery {
+	color: #313437;
+	background-color: #fff;
+}
+
+.photo-gallery p {
+	color: #7d8285;
+}
+
+.photo-gallery .photos {
+	padding-bottom: 20px;
+}
+
+.photo-gallery .item {
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+/* -- Other Styles */
+
+.card {
+	overflow: hidden;
+	border: 0;
+	border-radius: 30px 30px 0px 0px;
+}
+
+.card-title {
+	color: #001a28;
+	text-align: center;
+}
+
+.card-text {
+	color: #001a28;
+	font-size: medium;
+}
+
+.btn-uh-sheesh {
+	color: #fff;
+	background-color: #001a28;
+	border-color: #001a28;
+}

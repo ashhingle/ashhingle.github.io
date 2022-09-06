@@ -19,9 +19,11 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
 	<link rel="manifest" href="../img/favicon/site.webmanifest">
-	<title>Writing</title>
+	<title>Creative Cafe</title>
 	<!-- Custom styles for this template -->
 	<link href="../css/mycss.css" rel="stylesheet">
+	<!-- Gallery Lightbox Stylesheet by Lokesh Dhakar: https://lokeshdhakar.com/-->
+	<link href="../css/lightbox/lightbox.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -67,6 +69,9 @@
 							<a class="nav-link non-active" href="../projects/index.html">Projects</a>
 						</li>
 						<li class="nav-item">
+							<a class="nav-link non-active" href="../press/index.html">Press/Media</a>
+						</li>
+						<li class="nav-item">
 							<a class="nav-link active" href="index.html">Creative Cafe</a>
 						</li>
 					</ul>
@@ -74,7 +79,7 @@
 			</nav>
 		</header>
 		<div class="container content">
-			<div class="row">
+			<div class="row" style="padding-bottom: 50px;">
 				<div class="col-md-12">
 					<h1>Creative Cafe</h1>
 					<hr class="divider" />
@@ -83,39 +88,71 @@
 					<p>A space for photography, writing, and other creative endeavors.</p>
 				</div>
 				<div class="col-md-12">
-					<h2>Public Writing</h2>
+					<h2>Photography</h2>
 					<hr />
 				</div>
-				<div class="col-md-4">
-					<div class="carousel-item active">
-						<img src="../img/profile-pic.jpg" style="border: solid 5px white;" alt="Ashish profile picture"
-							width="100%" height="100%">
-
-						<div class="carousel-caption">
-
-							<h5>OUR-CPP - Student Profile</h5>
-							<p class="lowkey">I coauthored a student profile for the Cal Poly Pomona Office of
-								Undergraduate Research.</p>
-							<a class="btn btn-light" href="0521_studentprofile.html" role="button">Read more!</a>
+				<div class="photo-gallery">
+					<div class="container">
+						<div class="row content">
+							<p>
+								Click on the images below to see the full image. All images are © Ashish H.
+							</p>
+						</div>
+						<div class="row photos">
+							<div class="col-sm-6 col-md-4 col-lg-3 item"><a
+									data-title="Taken with a Nikon D5300 at the Renwick Art Gallery in 2022."
+									href="../img/photography/IP-2-web.jpg" data-lightbox="photos"><img class="img-fluid"
+										src="../img/photography/IP-2-thumb.jpg"
+										alt="The words 'THIS MOMENT USED TO BE THE FUTURE' are lit up on a frame with a red background."></a>
+							</div>
+							<div class="col-sm-6 col-md-4 col-lg-3 item"><a
+									data-title="Taken with a Nikon D5300 at the ACE Hotel, Palm Springs in 2022."
+									href="../img/photography/IP-3-web.jpg" data-lightbox="photos"><img class="img-fluid"
+										src="../img/photography/IP-3-thumb.jpg"
+										alt="Cactus growing near a wall with a cloudy sky in the background."></a>
+							</div>
+							<div class="col-sm-6 col-md-4 col-lg-3 item"><a
+									data-title="Taken with a Samsung Galaxy S8 in Minneapolis, Minnesota in 2022."
+									href="../img/photography/IP-4-web.jpg" data-lightbox="photos"><img class="img-fluid"
+										src="../img/photography/IP-4-thumb.jpg"
+										alt="Downtown Minneapolis with a large blue building in the background."></a>
+							</div>
+							<div class="col-sm-6 col-md-4 col-lg-3 item"><a
+									data-title="Taken with a Samsung Galaxy S8 at the Computer History Museum in Palo Alto in 2022."
+									href="../img/photography/IP-5-web.jpg" data-lightbox="photos"><img class="img-fluid"
+										src="../img/photography/IP-5-thumb.jpg"
+										alt="An older-looking computing device (Apple-1) with exposed board, chips, and capacitators."></a>
+							</div>
+							<div class="col-sm-6 col-md-4 col-lg-3 item"><a
+									data-title="Taken with a Nikon D5300 at the Tidal Basin, Washington DC in 2022."
+									href="../img/photography/IP-6-web.jpg" data-lightbox="photos"><img class="img-fluid"
+										src="../img/photography/IP-6-thumb.jpg"
+										alt="Whitish-pink looking flowers in the foreground with more in the background"></a>
+							</div>
+							<div class="col-sm-6 col-md-4 col-lg-3 item"><a
+									data-title="Taken with a Samsung Galaxy S8 at Cal Poly Pomona in 2018."
+									href="../img/photography/IP-1-web.jpg" data-lightbox="photos"><img class="img-fluid"
+										src="../img/photography/IP-1-thumb.jpg"
+										alt="Two buildings in the foreground with a blusish purple sky, and 2 pam trees to the right of the buildings."></a>
+							</div>
 						</div>
 					</div>
-					<div class="col-md-6">
-
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<footer>
+							<p style="text-align:center;">All Rights, Materials, Opinions © Ashish H. 2022</p>
+						</footer>
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<footer>
-						<p style="text-align:center;">All Rights, Materials, Opinions © Ashish H. 2022</p>
-					</footer>
-				</div>
-			</div>
-		</div>
-		<!-- JavaScript Bootstrap Bundle with Popper -->
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-			crossorigin="anonymous"></script>
+			<!-- JavaScript Bootstrap Bundle with Popper -->
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+				integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+				crossorigin="anonymous"></script>
+			<!-- Lightbox Scripts by Lokesh Dhakar: https://lokeshdhakar.com/ -->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+			<script src="../css/lightbox/lightbox.min.js"></script>
 </body>
 
 </html>
