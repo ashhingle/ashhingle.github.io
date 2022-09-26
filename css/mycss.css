@@ -143,6 +143,7 @@ span {
 }
 
 
+
 /*
 .active {
 	font-weight: bolder;
@@ -175,9 +176,9 @@ span {
 }
 
 .nav-link:hover {
-	text-decoration: underline;
 	font-weight: 600;
 	color: #ffdb93;
+	border-radius: 2px;
 }
 
 .nav-link:focus {
@@ -187,7 +188,12 @@ span {
 .nav-item {
 	min-width: 8em;
 	text-align: center;
+	border-bottom: 4px solid #001a28;
+	border-radius: 5px;
+}
 
+.nav-item:hover {
+	border-bottom: 4px solid aliceblue;
 }
 
 /* 3. Utilities styles || */
@@ -427,6 +433,10 @@ span {
 }
 
 /* 8. Cards */
+
+.card-body {
+	padding: 1rem 1rem;
+}
 
 .card-vertical {
 	overflow: hidden;
