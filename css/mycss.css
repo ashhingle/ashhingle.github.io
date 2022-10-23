@@ -143,32 +143,6 @@ span {
 	padding-left: 20px;
 }
 
-
-
-/*
-.active {
-	font-weight: bolder;
-	background-color: #f2be54;
-	color: #191a1d;
-	border-radius: 0.5em 0.5em 0 0;
-}
-
-.non-active {
-	font-weight: bold;
-	color: white;
-}
-
-.active:focus,
-.active:hover {
-	color: #525252;
-}
-
-.non-active:focus,
-.non-active:hover {
-	color: #F9AB9A;
-}
-*/
-
 .nav-link {
 	padding: 10px 5px 10px 5px;
 	font-weight: 600;
@@ -237,8 +211,8 @@ span {
 	padding-top: 10px;
 }
 
-.footer {
-	padding-top: 50px;
+footer {
+	padding-top: 30px;
 }
 
 .accordion-button {
@@ -435,10 +409,6 @@ span {
 
 /* 8. Cards */
 
-.card-body {
-	padding: 1rem 1rem;
-}
-
 .card-vertical {
 	overflow: hidden;
 	border: 0;
@@ -448,8 +418,14 @@ span {
 	flex-direction: column;
 	min-width: 0;
 	word-wrap: break-word;
-	background-color: #fff;
 	background-clip: border-box;
+	margin-bottom: 30px;
+	background-color: #041a27;
+}
+
+.card-vertical-body {
+	background-color: white;
+	padding: 1rem 1rem;
 }
 
 .card-vertical-title {
@@ -476,7 +452,6 @@ span {
 	position: relative;
 	min-width: 0;
 	word-wrap: break-word;
-	background-color: #fff;
 	background-clip: border-box;
 	margin: 12px;
 	margin-bottom: 30px;
