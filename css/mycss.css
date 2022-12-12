@@ -7,7 +7,7 @@ body {
 header {
 	margin-top: 40px;
 	border-bottom: .5rem solid #f2be54;
-	background-color: #000f18;
+	background-color: #001a28;
 	border-radius: 5px;
 }
 
@@ -26,11 +26,11 @@ h3 {
 }
 
 h4 {
-	color: #ffdb93;
+	color: #f2be54;
 }
 
 h5 {
-	color: #ffdb93;
+	color: #f2be54;
 	font-size: 1.4rem;
 }
 
@@ -96,7 +96,7 @@ span {
 	font-size: 1.05em;
 	text-indent: -50px;
 	padding-left: 50px;
-	margin-bottom: 10px;
+	/*margin-bottom: 10px;*/
 }
 
 /* 2c. Special Format */
@@ -124,11 +124,15 @@ span {
 }
 
 .cpp-emph {
-	color: #F9AB9A;
+	color: #00e55c;
 }
 
 .gmu-emph {
-	color: #ffcc33;
+	color: #f2be54;
+}
+
+.other-emph {
+	color: #F9AB9A;
 }
 
 /* 3. Navigation Menu styles || */
@@ -152,12 +156,12 @@ span {
 
 .nav-link:hover {
 	font-weight: 600;
-	color: #ffdb93;
+	color: #f2be54;
 	border-radius: 2px;
 }
 
 .nav-link:focus {
-	color: #ffdb93;
+	color: #f2be54;
 }
 
 .nav-item {
@@ -169,6 +173,10 @@ span {
 
 .nav-item:hover {
 	border-bottom: 4px solid aliceblue;
+}
+
+.navbar-nav .nav-link.active {
+	color: #f2be54;
 }
 
 /* 3. Utilities styles || */
@@ -395,7 +403,7 @@ footer {
 }
 
 .photo-gallery p {
-	color: #7d8285;
+	color: #001a28;
 }
 
 .photo-gallery .photos {
@@ -437,6 +445,10 @@ footer {
 .card-vertical-text {
 	color: #001a28;
 	font-size: 16px
+}
+
+.card-vertical-text a {
+	color: #001a28;
 }
 
 .card-vertical-tags {
@@ -494,4 +506,9 @@ footer {
 	color: #fff;
 	background-color: #001a28;
 	border-color: #001a28;
+}
+
+.btn-uh-sheesh:hover {
+	color: #f2be54 !important;
+	background-color: #001a28 !important;
 }
