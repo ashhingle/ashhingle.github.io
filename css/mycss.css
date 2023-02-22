@@ -42,7 +42,11 @@ p {
 }
 
 a {
-	/*color: #93edff;*/
+	color: #93edff;
+
+}
+
+.a-block {
 	display: inline;
 	padding: .1em .6em .1em;
 	font-size: 80%;
