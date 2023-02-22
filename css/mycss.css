@@ -42,7 +42,19 @@ p {
 }
 
 a {
-	color: #93edff;
+	/*color: #93edff;*/
+	display: inline;
+	padding: .1em .6em .1em;
+	font-size: 80%;
+	font-weight: 700;
+	line-height: 1;
+	color: #001a28;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: .25em;
+	background-color: #93edff;
+	text-decoration: none;
 }
 
 a:hover {
