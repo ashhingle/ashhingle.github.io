@@ -58,7 +58,7 @@ a:hover {
 	line-height: 1;
 	color: #041a27;
 	text-align: center;
-	/*white-space: nowrap;*/
+	white-space: nowrap;
 	vertical-align: baseline;
 	border-radius: .25em;
 	background-color: #93edff;
@@ -79,7 +79,7 @@ a:hover {
 	line-height: 1;
 	color: #93edff;
 	text-align: center;
-	/*white-space: nowrap;*/
+	white-space: nowrap;
 	vertical-align: baseline;
 	border-radius: .25em;
 	background-color: #001a28;
