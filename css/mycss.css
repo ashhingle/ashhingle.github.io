@@ -43,16 +43,20 @@ p {
 
 a {
 	color: #93edff;
-
 }
 
-.a-block {
+a:hover {
+	color: #ffdb93;
+	transition: all ease-in-out 1s;
+}
+
+.light-blue-block {
 	display: inline;
 	padding: .1em .6em .1em;
-	font-size: 80%;
+	font-size: 85%;
 	font-weight: 700;
 	line-height: 1;
-	color: #001a28;
+	color: #041a27;
 	text-align: center;
 	white-space: nowrap;
 	vertical-align: baseline;
@@ -61,9 +65,31 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
-	color: #ffdb93;
-	transition: all ease-in-out 1s;
+.light-blue-block:hover {
+	color: #041a27;
+	background-color: white;
+	transition: all ease-in-out 0.5s;
+}
+
+.dark-blue-block {
+	display: inline;
+	padding: .1em .6em .1em;
+	font-size: 85%;
+	font-weight: 700;
+	line-height: 1;
+	color: #93edff;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: .25em;
+	background-color: #001a28;
+	text-decoration: none;
+}
+
+.dark-blue-block:hover {
+	color: #001a28;
+	background-color: #93edff;
+	transition: all ease-in-out 0.5s;
 }
 
 p,
@@ -124,12 +150,12 @@ span {
 	font-weight: normal;
 }
 
-.ent-emph-b {
+.entry-em-bold {
 	color: #001a28;
 	font-weight: bold;
 }
 
-.ent-emph-y {
+.entry-em-bold-gold {
 	color: #f2be54;
 	font-weight: bold;
 }
