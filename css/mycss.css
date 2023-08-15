@@ -187,6 +187,13 @@ span {
 
 .navbar-brand {
 	padding-left: 20px;
+	font-size: 2em;
+	color: white;
+}
+
+.navbar-brand:hover {
+	color: #f2be54 !important;
+	border-radius: 2px !important;
 }
 
 .nav-link {
@@ -209,12 +216,12 @@ span {
 .nav-item {
 	min-width: 8em;
 	text-align: center;
-	border-bottom: 4px solid #001a28;
+	border-bottom: 8px solid #001a28;
 	border-radius: 5px;
 }
 
 .nav-item:hover {
-	border-bottom: 4px solid aliceblue;
+	border-bottom: 8px solid aliceblue;
 }
 
 .navbar-nav .nav-link.active {
@@ -542,15 +549,21 @@ footer {
 	}
 }
 
-/* -- Other Styles */
-
 .btn-uh-sheesh {
-	color: #fff;
-	background-color: #001a28;
-	border-color: #001a28;
+	color: #041a27;
+	background-color: #93edff;
+	border-color: #041a27;
+	margin-bottom: 10px;
 }
 
 .btn-uh-sheesh:hover {
-	color: #f2be54 !important;
-	background-color: #001a28 !important;
+	color: #041a27 !important;
+	background-color: #f2be54 !important;
+	border-color: #041a27 !important;
+}
+
+.btn-group {
+	padding: 20px 10px 10px 10px;
+	margin: 0 0 10px 0;
+	text-align: center;
 }
