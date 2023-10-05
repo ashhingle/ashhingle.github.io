@@ -50,6 +50,15 @@ a:hover {
 	transition: all ease-in-out 1s;
 }
 
+.link-dark {
+	color: #001a28;
+}
+
+.link-dark:hover {
+	color: #191a1d;
+	transition: all ease-in-out 1s;
+}
+
 .light-blue-block {
 	display: inline;
 	padding: .1em .6em .1em;
