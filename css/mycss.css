@@ -108,6 +108,15 @@ span {
 	font-family: "Open Sans", sans-serif;
 }
 
+.nav-item.dropdown {
+	position: inherit;
+  }
+  
+.dropdown-menu {
+	width: 100%;
+	transform: translate(0px, -10px); /* change numbers for your layout */
+}
+
 .dropdown-item {
 	text-align: center;
 	font-weight: 600;
@@ -201,7 +210,7 @@ span {
 }
 
 .navbar-brand:hover {
-	color: #f2be54 !important;
+	color: #93edff !important;
 	border-radius: 2px !important;
 }
 
@@ -214,7 +223,7 @@ span {
 
 .nav-link:hover {
 	font-weight: 600;
-	color: #f2be54;
+	color: #93edff !important;
 	border-radius: 2px;
 }
 
@@ -237,30 +246,56 @@ span {
 	color: #f2be54;
 }
 
+/* 3b. Navigation Sub Menu styles || */
+
+.submenu-block{
+	padding:10px;
+}
+
+.submenu-head{
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	font-size: smaller;
+}
+
+.submenu-text{
+	color: black;
+	font-size: small;
+}
+
+
 /* 3. Utilities styles || */
 
 .divider {
-	color: white;
 	min-height: 3px;
 	opacity: 1;
+	border-bottom: solid white 0.3rem;
+	border-radius: 9px;
 }
 
 .divider-spaced {
-	color: white;
 	min-height: 3px;
 	opacity: 1;
 	margin: 25px 0px;
+	border-bottom: solid white 0.3rem;
+	border-radius: 9px;
 }
 
 .divider-thin {
-	color: white;
 	min-height: 1px;
 	opacity: 1;
 	margin: 25px 0px;
+	border-bottom: solid white 0.2rem;
+	border-radius: 9px;
 }
 
-.divider-very-thin {
-	margin: 10px 0px 5px 0px;
+.divider-thin-no-space {
+	min-height: 1px;
+	opacity: 1;
+	margin: 0px 0px;
+	border-bottom: solid white 0.2rem;
+	border-radius: 9px;
 }
 
 .content {
@@ -429,7 +464,9 @@ footer {
 
 .div-github {
 	background-color: #24292e;
-	border: solid 5px white;
+	border-bottom: solid .5rem white;
+	border-radius: 9px;
+	margin: .5rem;
 }
 
 .icon-github {
@@ -440,7 +477,9 @@ footer {
 
 .div-scholar {
 	background-color: #dd4b39;
-	border: solid 5px white;
+	border-bottom: solid .5rem white;
+	border-radius: 9px;
+	margin: .5rem;
 }
 
 .icon-scholar {
@@ -451,7 +490,9 @@ footer {
 
 .div-linkedin {
 	background-color: #007bb5;
-	border: solid 5px white;
+	border-bottom: solid .5rem white;
+	border-radius: 9px;
+	margin: .5rem;
 }
 
 .icon-linkedin {
