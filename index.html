@@ -26,29 +26,65 @@
 	<body>
 		<div class="container">
 			<header>
+				
 				<nav class="navbar navbar-expand-lg nav-bar-custom">
 					<a class="navbar-brand" href="index.html"><strong>Ashish H.</strong></a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"> <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i> </span> </button> 
 					<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 						<ul class="navbar-nav justify-content-end">
-							<li class="nav-item"> <a class="nav-link" href="publications-proceedings.html">Publications</a> </li>
-							<li class="nav-item"> <a class="nav-link" href="presentations.html">Presentations</a> </li>
-							<li class="nav-item"> <a class="nav-link" href="projects/index.html">Projects</a> </li>
+							<!-- Publications -->
 							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Service </a> 
+								<a class="nav-link" href="publications-proceedings.html" role="button" aria-expanded="false" style="display: inline-flex;"> Publications </a> 
+								<a class="nav-link-icon dropdown-toggle dropdown-toggle-split" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span class="visually-hidden">Toggle Dropdown</span></a> 
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<li><a class="dropdown-item" href="service/academic-professional-service.html">Academic and Professional Service</a> </li>
+									<li><a class="dropdown-item" href="publications-proceedings.html#journals">Journal Articles</a></li>
+									<li><a class="dropdown-item" href="publications-proceedings.html#proceedings">Conference Proceedings</a> </li>
+									<li><a class="dropdown-item" href="publications-proceedings.html#editorials">Guest Editorials</a> </li>
+									<li><a class="dropdown-item" href="publications-proceedings.html#repositories">Online Repositories</a> </li>
+								</ul>
+							</li>
+							<!-- Presentations -->
+							<li class="nav-item dropdown">
+								<a class="nav-link" href="presentations.html" role="button" aria-expanded="false" style="display: inline-flex;"> Presentations </a> 
+								<a class="nav-link-icon dropdown-toggle dropdown-toggle-split" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span class="visually-hidden">Toggle Dropdown</span></a> 
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="presentations.html#invited-talks">Invited Talks</a></li>
+									<li><a class="dropdown-item" href="presentations.html#conference-presentations">Conference Presentations</a> </li>
+									<li><a class="dropdown-item" href="presentations.html#workshops">Workshops</a> </li>
+								</ul>
+							</li>
+							<!-- Projects -->
+							<li class="nav-item dropdown">
+								<a class="nav-link" href="projects/index.html" role="button" aria-expanded="false" style="display: inline-flex;"> Projects </a> 
+								<a class="nav-link-icon dropdown-toggle dropdown-toggle-split" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span class="visually-hidden">Toggle Dropdown</span></a> 
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="projects/mason-tech-ethics.html">Mason Tech Ethics</a></li>
+								</ul>
+							</li>
+							<!-- Service -->
+							<li class="nav-item dropdown">
+								<a class="nav-link" href="service/academic-professional-service.html" role="button" aria-expanded="false" style="display: inline-flex;"> Service </a> 
+								<a class="nav-link-icon dropdown-toggle dropdown-toggle-split" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span class="visually-hidden">Toggle Dropdown</span></a> 
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="service/academic-professional-service.html">Academic and Professional Service</a></li>
 									<li><a class="dropdown-item" href="service/community-service.html">Community Service</a> </li>
 								</ul>
 							</li>
-							<li class="nav-item"> <a class="nav-link" href="press/index.html">Press</a> </li>
-							<li class="nav-item"> <a class="nav-link" href="creative-cafe/index.html">Creative Cafe</a> </li>
+							<!-- Press -->
+							<li class="nav-item dropdown">
+								<a class="nav-link" href="press/index.html" role="button" aria-expanded="false" style="display: inline-flex;"> Press </a> 
+							</li>
+							<!-- Creative Cafe -->
+							<li class="nav-item dropdown">
+								<a class="nav-link" href="creative-cafe/index.html" role="button" aria-expanded="false" style="display: inline-flex;"> Creative Cafe </a> 
+							</li>
 						</ul>
 					</div>
 				</nav>
+
 			</header>
 			<div class="content">
 				<div class="row">
-					<div class="col-lg-4 col-md-8 offset-lg-0 offset-md-1" style="padding-bottom:20px;">
+					<div class="col-lg-3 col-md-6 offset-lg-0 offset-md-1" style="padding-bottom:20px;">
 						<div class="row">
 							<div style="padding:10px;"> <img src="img/profile-pic.jpg" style="border-bottom: solid .5rem white; border-radius: 9px;" alt="Ashish profile picture" width="100%" height="100%"> </div>
 						</div>
@@ -59,15 +95,15 @@
 							<!-- <div class="col div-twitter"> <a href="https://twitter.com/kargosh_" style="color: #212529" target="_blank"> <em class="fa fa-twitter fa-fw icon-twitter"></em> </a> </div> --> 
 						</div>
 					</div>
-					<div class="col-lg-8 col-md-12">
+					<div class="col-lg-9 col-md-12">
 						<h1 class="cover-heading">Hi! My name is Ashish!</h1>
 						<p style="font-style: italic;">Pronounced "uh-sheesh"</p>
-						<p>I am a PhD student in Information Technology in the <a class="light-blue-block" href="https://cec.gmu.edu/" target="_blank">College of Engineering and Computing</a> at <a class="light-blue-block" href="https://www.gmu.edu/" target="_blank">George Mason University</a> (Go Patriots!). My pronouns are he/him/his. </p>
-						<p>My research interests include education in higher education, engineering education, and student-self efficacy. My interests are influenced by my experiences as a first-generation college student navigating through academia. </p>
-						<p>I am part of the Technocritical Research on AI, Learning & Society Lab (trailsLAB) at GMU. Currently, I am working on the <a class="light-blue-block" href="https://www.ist.gmu.edu/eecl/techethics/" target="_blank">Mason Tech Ethics Project</a>, an NSF-funded grant exploring student's understanding of ethical thinking in our high-tech world. We use role-play activities as a medium for students to explore different perspectives in everyday actions that have ethical considerations. </p>
-						<p>In conducting my doctoral work, I have received several merit fellowships and scholarships. I am a <a class="light-blue-block" href="https://www.scu.edu/ethics/about-the-center/center-news/the-summer-institute-in-technology-ethics-at-santa-clara-university/">Summer Institute for Technology Ethics Fellow</a> (Santa Clara University), <a class="light-blue-block" href="https://icicle.osu.edu/education-and-outreach/icicle-educational-fellows-program">ICICLE Educational Fellow</a> working with the <a class="light-blue-block" href="https://icicle.osu.edu/">ICICLE National AI Institute</a> (Ohio State University), a <a class="light-blue-block" href="https://graduate.gmu.edu/diversity/mentoring-anti-racism-and-inclusive-excellence-marie-program">MARIE Program Scholar</a> (George Mason University), and an <a class="light-blue-block" href="https://www.aistrategies.gmu.edu/summerinstitute">AI and Tech Policy Summer Fellow</a> (George Mason University).</p>
-						<p>During the 2022-23 Academic Year, I am serving as Director of Communication for <a class="light-blue-block" href="https://www.gmu.edu/" target="_blank">Mason's</a> <a class="light-blue-block" href="https://gapsa.gmu.edu/" target="_blank">Graduate & Professional Student Assn. (GAPSA)</a>, and Co-Diversity Chair for the <a class="light-blue-block" href="https://sites.asee.org/students/" target="_blank">Student Division</a> of the <a class="light-blue-block" href="https://www.asee.org/" target="_blank">American Society for Engineering Education (ASEE)</a>. </p>
-						<p>I hold a M.S. in Business Administration (emphasis in Information Security and Assurance) and B.S. in Business Administration (emphasis in Computer Information Systems) from <a class="light-blue-block" href=" https://www.cpp.edu/" target="_blank">California State Polytechnic University, Pomona</a> (Go Broncos!). I also hold associates degrees from <a class="light-blue-block" href="https://pasadena.edu/" target="_blank">Pasadena City College</a> (Go Lancers!). </p>
+						<p style="font-size: medium;">I am a PhD student in Information Technology in the <a href="https://cec.gmu.edu/" target="_blank">College of Engineering and Computing</a> at <a href="https://www.gmu.edu/" target="_blank">George Mason University</a> (Go Patriots!). My pronouns are he/him/his. </p>
+						<p style="font-size: medium;">My research interests include education in higher education, engineering education, and student-self efficacy. My interests are influenced by my experiences as a first-generation college student navigating through academia. </p>
+						<p style="font-size: medium;">I am part of the Technocritical Research on AI, Learning & Society Lab (trailsLAB) at GMU. Currently, I am working on the <a href="https://www.ist.gmu.edu/eecl/techethics/" target="_blank">Mason Tech Ethics Project</a>, an NSF-funded grant exploring student's understanding of ethical thinking in our high-tech world. We use role-play activities as a medium for students to explore different perspectives in everyday actions that have ethical considerations. </p>
+						<p style="font-size: medium;">In conducting my doctoral work, I have received several merit fellowships and scholarships. I am a <a href="https://www.scu.edu/ethics/about-the-center/center-news/the-summer-institute-in-technology-ethics-at-santa-clara-university/">Summer Institute for Technology Ethics Fellow</a> (Santa Clara University), <a href="https://icicle.osu.edu/education-and-outreach/icicle-educational-fellows-program">ICICLE Educational Fellow</a> working with the <a href="https://icicle.osu.edu/">ICICLE National AI Institute</a> (Ohio State University), a <a href="https://graduate.gmu.edu/diversity/mentoring-anti-racism-and-inclusive-excellence-marie-program">MARIE Program Scholar</a> (George Mason University), and an <a href="https://www.aistrategies.gmu.edu/summerinstitute">AI and Tech Policy Summer Fellow</a> (George Mason University).</p>
+						<p style="font-size: medium;">During the 2022-23 Academic Year, I am serving as Director of Communication for <a href="https://www.gmu.edu/" target="_blank">Mason's</a> <a href="https://gapsa.gmu.edu/" target="_blank">Graduate & Professional Student Assn. (GAPSA)</a>, and Co-Diversity Chair for the <a href="https://sites.asee.org/students/" target="_blank">Student Division</a> of the <a href="https://www.asee.org/" target="_blank">American Society for Engineering Education (ASEE)</a>. </p>
+						<p style="font-size: medium;">I hold a M.S. in Business Administration (emphasis in Information Security and Assurance) and B.S. in Business Administration (emphasis in Computer Information Systems) from <a href=" https://www.cpp.edu/" target="_blank">California State Polytechnic University, Pomona</a> (Go Broncos!). I also hold associates degrees from <a href="https://pasadena.edu/" target="_blank">Pasadena City College</a> (Go Lancers!). </p>
 					</div>
 				</div>
 				<hr class="divider" />

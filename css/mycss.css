@@ -5,7 +5,7 @@ body {
 }
 
 header {
-	margin-top: 40px;
+	margin-top: 10px;
 	border-bottom: .5rem solid #f2be54;
 	background-color: #001a28;
 	border-radius: 5px;
@@ -113,8 +113,8 @@ span {
   }
   
 .dropdown-menu {
-	width: 100%;
-	transform: translate(0px, -10px); /* change numbers for your layout */
+	width: 100% !important;
+	transform: translate(0px, -10px) !important; /* change numbers for your layout */
 }
 
 .dropdown-item {
@@ -219,27 +219,53 @@ span {
 	font-weight: 600;
 	color: white;
 	text-align: center;
+	border-radius: 9px;
 }
 
 .nav-link:hover {
 	font-weight: 600;
+	border-radius: 9px;
 	color: #93edff !important;
-	border-radius: 2px;
 }
 
 .nav-link:focus {
 	color: #f2be54;
 }
 
+.nav-link-icon {
+	padding: 10px 5px 10px 5px;
+	font-weight: 600;
+	color: white !important;
+	text-align: center;
+}
+
+.nav-link-icon:hover {
+	font-weight: 600;
+	color: #93edff !important;
+	border-radius: 2px;
+}
+
+.nav-link-icon:focus {
+	color: #f2be54;
+}
+
 .nav-item {
 	min-width: 8em;
 	text-align: center;
-	border-bottom: 8px solid #001a28;
-	border-radius: 5px;
+	margin: 0px 10px;
+	border-bottom: 0.3rem solid white;
+	border-radius: 9px;
 }
 
 .nav-item:hover {
-	border-bottom: 8px solid aliceblue;
+	border-bottom: 0.3rem solid #93edff;
+	border-radius: 9px;
+}
+
+.nav-item.active {
+	border-bottom: 0.3rem solid #f2be54;
+	border-radius: 9px;
+	color: #f2be54;
 }
 
 .navbar-nav .nav-link.active {
@@ -299,7 +325,7 @@ span {
 }
 
 .content {
-	padding-top: 40px;
+	padding-top: 20px;
 }
 
 .img-style {
@@ -571,12 +597,13 @@ footer {
 	background-clip: border-box;
 	margin: 12px;
 	margin-bottom: 30px;
-	background-color: #041a27;
+	background-color: white;
 }
 
 .card-horizontal-image {
 	padding: 0;
 	background-color: #041a27;
+	height:fit-content;
 }
 
 .card-horizontal-body {
