@@ -199,8 +199,8 @@ span {
 
 .nav-bar-custom {
 	background-color: #001a28;
-	padding: 20px;
-	padding-left: 40px;
+	padding: 20px 0px;
+	padding-left: 10px;
 }
 
 .navbar-brand {
