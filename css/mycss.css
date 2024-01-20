@@ -253,17 +253,18 @@ span {
 	min-width: 8em;
 	text-align: center;
 	margin: 0px 10px;
-	border-bottom: 0.3rem solid white;
-	border-radius: 9px;
+	border-bottom: 0.15rem solid white;
 }
 
 .nav-item:hover {
-	border-bottom: 0.3rem solid #93edff;
+	border-bottom: 0.15rem solid #93edff;
 	border-radius: 9px;
+	color: #93edff;
+	transition: all 0.3s ease-in-out;
 }
 
 .nav-item.active {
-	border-bottom: 0.3rem solid #f2be54;
+	border-bottom: 0.15rem solid #f2be54;
 	border-radius: 9px;
 	color: #f2be54;
 }
