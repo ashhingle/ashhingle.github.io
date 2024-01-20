@@ -178,6 +178,11 @@ span {
 	font-weight: bold;
 }
 
+.entry-em-italic-gold {
+	color: #f2be54;
+	font-style: italic;
+}
+
 .numb-emp {
 	color: whitesmoke;
 	font-weight: bolder;
