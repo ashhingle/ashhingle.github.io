@@ -122,6 +122,12 @@ span {
 	font-weight: 600;
 }
 
+.dropdown-item.active, .dropdown-item:active {
+    color: #001a28;
+    text-decoration: none;
+    background-color: #f2be54 !important;
+}
+
 .smol-heading {
 	line-height: 18px;
 	font-family: "Poppins", sans-serif;
@@ -224,13 +230,11 @@ span {
 	font-weight: 600;
 	color: white;
 	text-align: center;
-	border-radius: 9px;
 }
 
 .nav-link:hover {
 	font-weight: 600;
-	border-radius: 9px;
-	color: #93edff !important;
+	color: white !important;
 }
 
 .nav-link:focus {
@@ -246,8 +250,7 @@ span {
 
 .nav-link-icon:hover {
 	font-weight: 600;
-	color: #93edff !important;
-	border-radius: 2px;
+	color: white !important;
 }
 
 .nav-link-icon:focus {
@@ -255,22 +258,20 @@ span {
 }
 
 .nav-item {
-	min-width: 8em;
+	/*min-width: 8em;*/
 	text-align: center;
 	margin: 0px 10px;
-	border-bottom: 0.15rem solid white;
+	border-bottom: 0.15rem solid #001a28;
 }
 
 .nav-item:hover {
-	border-bottom: 0.15rem solid #93edff;
-	border-radius: 9px;
-	color: #93edff;
+	border-bottom: 0.15rem solid white;
+	color: white;
 	transition: all 0.3s ease-in-out;
 }
 
 .nav-item.active {
 	border-bottom: 0.15rem solid #f2be54;
-	border-radius: 9px;
 	color: #f2be54;
 }
 
