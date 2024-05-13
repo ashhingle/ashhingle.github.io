@@ -65,7 +65,7 @@ a:hover {
 	font-size: 85%;
 	font-weight: 700;
 	line-height: 1;
-	color: #041a27;
+	color: #001a28;
 	text-align: center;
 	white-space: nowrap;
 	vertical-align: baseline;
@@ -75,7 +75,7 @@ a:hover {
 }
 
 .light-blue-block:hover {
-	color: #041a27;
+	color: #001a28;
 	background-color: white;
 	transition: all ease-in-out 0.5s;
 }
@@ -565,7 +565,7 @@ footer {
 	word-wrap: break-word;
 	background-clip: border-box;
 	margin-bottom: 30px;
-	background-color: #041a27;
+	background-color: #001a28;
 }
 
 .card-vertical-body {
@@ -604,12 +604,12 @@ footer {
 	background-clip: border-box;
 	margin: 12px;
 	margin-bottom: 30px;
-	background-color: white;
+	background-color: #001a28;
 }
 
 .card-horizontal-image {
 	padding: 0;
-	background-color: #041a27;
+	background-color: #001a28;
 	height:fit-content;
 }
 
@@ -639,16 +639,16 @@ footer {
 }
 
 .btn-uh-sheesh {
-	color: #041a27;
+	color: #001a28;
 	background-color: #93edff;
-	border-color: #041a27;
+	border-color: #001a28;
 	margin-bottom: 10px;
 }
 
 .btn-uh-sheesh:hover {
-	color: #041a27 !important;
+	color: #001a28 !important;
 	background-color: #f2be54 !important;
-	border-color: #041a27 !important;
+	border-color: #001a28 !important;
 }
 
 .btn-group {
