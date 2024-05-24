@@ -1,14 +1,17 @@
 /* 1. General styles || */
 
 body {
-	background-color: #001a28;
+	background-color: white;
 }
 
 header {
-	margin-top: 10px;
-	border-bottom: .5rem solid #f2be54;
+	border-bottom: .5rem solid #5D8038;
 	background-color: #001a28;
-	border-radius: 5px;
+	padding: 0px 50px 0px 50px;
+}
+
+.padder {
+	padding: 0px 50px 0px 50px;
 }
 
 /* 2. Typography styles || */
@@ -16,21 +19,21 @@ header {
 /* 2a. Headings */
 
 h1 {
-	color: #f2be54;
+	color: #001a28;
 }
 
 h2,
 h3 {
-	color: #F9AB9A;
+	color: #001a28;
 	padding: 4px;
 }
 
 h4 {
-	color: #f2be54;
+	color: #001a28;
 }
 
 h5 {
-	color: #f2be54;
+	color: #001a28;
 	font-size: 1.4rem;
 }
 
@@ -42,12 +45,12 @@ p {
 }
 
 a {
-	color: #93edff;
+	color: #3870A8;
 }
 
 a:hover {
-	color: #ffdb93;
-	transition: all ease-in-out 1s;
+	color: #001a28;
+	transition: all ease-in-out 0.5s;
 }
 
 .link-dark {
@@ -70,7 +73,7 @@ a:hover {
 	white-space: nowrap;
 	vertical-align: baseline;
 	border-radius: .25em;
-	background-color: #93edff;
+	background-color: #3870A8;
 	text-decoration: none;
 }
 
@@ -86,7 +89,7 @@ a:hover {
 	font-size: 85%;
 	font-weight: 700;
 	line-height: 1;
-	color: #93edff;
+	color: #3870A8;
 	text-align: center;
 	white-space: nowrap;
 	vertical-align: baseline;
@@ -97,14 +100,14 @@ a:hover {
 
 .dark-blue-block:hover {
 	color: #001a28;
-	background-color: #93edff;
+	background-color: #3870A8;
 	transition: all ease-in-out 0.5s;
 }
 
 p,
 li,
 span {
-	color: white;
+	color: #001a28;
 	font-family: "Open Sans", sans-serif;
 }
 
@@ -125,7 +128,7 @@ span {
 .dropdown-item.active, .dropdown-item:active {
     color: #001a28;
     text-decoration: none;
-    background-color: #f2be54 !important;
+    background-color: #aecd8e !important;
 }
 
 .smol-heading {
@@ -137,12 +140,22 @@ span {
 	margin-bottom: auto;
 }
 
+.smol-heading-invert {
+	line-height: 18px;
+	font-family: "Poppins", sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 16px;
+	margin-bottom: auto;
+	color: white;
+}
+
 .entry-block {
 	padding-left: 20px;
 	margin-bottom: 25px;
 	margin-top: 10px;
 	margin-left: 4px;
-	border-left: 2px solid #fff;
+	border-left: 2px solid #5D8038;
 	position: relative;
 }
 
@@ -155,7 +168,7 @@ span {
 	left: -9px;
 	top: 0;
 	background: #001a28;
-	border: 2px solid #f2be54;
+	border: 2px solid #5D8038;
 }
 
 .entries {
@@ -164,10 +177,13 @@ span {
 	padding-left: 50px;
 }
 
+.entry-block ul li{
+ 	color: white !important;
+}
+
 /* 2c. Special Format */
 
 .lowkey {
-
 	color: white;
 	font-size: 0.8rem;
 	font-weight: normal;
@@ -180,30 +196,35 @@ span {
 }
 
 .entry-em-bold-gold {
-	color: #f2be54;
+	color: #5D8038;
 	font-weight: bold;
 }
 
 .entry-em-italic-gold {
-	color: #f2be54;
+	color: #5D8038;
 	font-style: italic;
 }
 
 .numb-emp {
-	color: whitesmoke;
+	color: #001a28;
+	font-weight: bolder;
+}
+
+.numb-emp-white {
+	color: white;
 	font-weight: bolder;
 }
 
 .cpp-emph {
-	color: #00D8FF;
+	color: #00c8f8;
 }
 
 .gmu-emph {
-	color: #f2be54;
+	color: #ffe500;
 }
 
 .other-emph {
-	color: #ffa0f1;
+	color: #5D8038;
 }
 
 /* 3. Navigation Menu styles || */
@@ -221,7 +242,7 @@ span {
 }
 
 .navbar-brand:hover {
-	color: #93edff !important;
+	color: #3870A8 !important;
 	border-radius: 2px !important;
 }
 
@@ -238,7 +259,7 @@ span {
 }
 
 .nav-link:focus {
-	color: #f2be54;
+	color: #5D8038;
 }
 
 .nav-link-icon {
@@ -254,7 +275,7 @@ span {
 }
 
 .nav-link-icon:focus {
-	color: #f2be54;
+	color: #5D8038;
 }
 
 .nav-item {
@@ -271,12 +292,12 @@ span {
 }
 
 .nav-item.active {
-	border-bottom: 0.15rem solid #f2be54;
-	color: #f2be54;
+	border-bottom: 0.15rem solid #5D8038;
+	color: #aecd8e;
 }
 
 .navbar-nav .nav-link.active {
-	color: #f2be54;
+	color: #aecd8e;
 }
 
 /* 3b. Navigation Sub Menu styles || */
@@ -293,7 +314,7 @@ span {
 }
 
 .submenu-text{
-	color: black;
+	color: #001a28;
 	font-size: small;
 }
 
@@ -303,24 +324,24 @@ span {
 .divider {
 	min-height: 3px;
 	opacity: 1;
-	border-bottom: solid white 0.3rem;
-	border-radius: 9px;
+	border-top: 0.4rem solid #F6EEDF;
+	border-bottom: 0.2rem solid #5D8038;
 }
 
 .divider-spaced {
 	min-height: 3px;
 	opacity: 1;
 	margin: 25px 0px;
-	border-bottom: solid white 0.3rem;
-	border-radius: 9px;
+	border-top: 0.4rem solid #F6EEDF;
+	border-bottom: 0.2rem solid #5D8038;
 }
 
 .divider-thin {
 	min-height: 1px;
 	opacity: 1;
 	margin: 25px 0px;
-	border-bottom: solid white 0.2rem;
-	border-radius: 9px;
+	border-top: 0.4rem solid #F6EEDF;
+	border-bottom: 0.2rem solid #5D8038;
 }
 
 .divider-thin-no-space {
@@ -331,8 +352,14 @@ span {
 	border-radius: 9px;
 }
 
-.content {
+.content-color {
 	padding-top: 20px;
+	background: #F6EEDF;
+}
+
+.content-plain {
+	padding-top: 20px;
+	background: white;
 }
 
 .img-style {
@@ -351,6 +378,13 @@ span {
 
 footer {
 	padding-top: 30px;
+	padding-bottom: 10px;
+	background-color: #001a28;
+	border-top: solid 12px #5D8038;
+}
+
+footer p {
+	color: white !important;
 }
 
 .accordion-button {
@@ -361,14 +395,14 @@ footer {
 
 .accordion-button:not(.collapsed) {
 	color: #ffffff;
-	background-color: #191a1d;
+	background-color: #001a28;
 	box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
 }
 
 .accordion-body span,
 .accordion-body li,
 .accordion-body p  {
-	color: black;
+	color: #001a28;
 }
 
 /* 4. Custom Features styles || */
@@ -396,7 +430,7 @@ footer {
 	float: left;
 	margin: 0 10px 10px 0;
 	font-size: 14px;
-	color: #001a28;
+	color: white;
 }
 
 .carousel-caption {
@@ -465,6 +499,10 @@ footer {
 
 .modal-title {
 	color: #191a1d;
+}
+
+.jumbotron h1, .jumbotron p {
+	color: white;
 }
 
 /* 6. Font Awesome specific CSS*/
@@ -556,7 +594,7 @@ footer {
 
 .card-vertical {
 	overflow: hidden;
-	border: 0;
+	border: 1px solid #001a28;
 	border-radius: 30px 30px 0px 0px;
 	position: relative;
 	display: flex;
@@ -596,7 +634,7 @@ footer {
 
 .card-horizontal {
 	overflow: hidden;
-	border: 0;
+	border: solid 1px #001a28;
 	border-radius: 30px 0px 0px 30px;
 	position: relative;
 	min-width: 0;
@@ -639,15 +677,15 @@ footer {
 }
 
 .btn-uh-sheesh {
-	color: #001a28;
-	background-color: #93edff;
+	color: white;
+	background-color: #3870A8;
 	border-color: #001a28;
 	margin-bottom: 10px;
 }
 
 .btn-uh-sheesh:hover {
-	color: #001a28 !important;
-	background-color: #f2be54 !important;
+	color: white !important;
+	background-color: #5D8038 !important;
 	border-color: #001a28 !important;
 }
 
