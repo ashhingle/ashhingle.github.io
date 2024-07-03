@@ -542,7 +542,7 @@ footer p {
 
 .div-github {
 	background-color: #24292e;
-	border: solid .25rem white;
+	border: solid .1rem #60803f;
 	border-bottom: solid .5rem #60803f;
 	border-radius: 9px;
 	margin: .5rem;
@@ -556,7 +556,7 @@ footer p {
 
 .div-scholar {
 	background-color: #dd4b39;
-	border: solid .25rem white;
+	border: solid .1rem #60803f;
 	border-bottom: solid .5rem #60803f;
 	border-radius: 9px;
 	margin: .5rem;
@@ -570,7 +570,7 @@ footer p {
 
 .div-linkedin {
 	background-color: #007bb5;
-	border: solid .25rem white;
+	border: solid .1rem #60803f;
 	border-bottom: solid .5rem #60803f;
 	border-radius: 9px;
 	margin: .5rem;
@@ -578,6 +578,20 @@ footer p {
 
 .icon-linkedin {
 	color: white;
+}
+
+/* Orcid */
+
+.div-orcid {
+	background-color: white;
+	border: solid .1rem #60803f;
+	border-bottom: solid .5rem #60803f;
+	border-radius: 9px;
+	margin: .5rem;
+}
+
+.icon-orcid {
+	color: #a6ce39;
 }
 
 /* 7. Lightbox and Photo Gallery */
